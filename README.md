@@ -28,7 +28,7 @@ $$
 It can be verfied that this problem has a analytic solution as 
 
 
-$$u(x,t) = \cos(\frac{3\pi t}{2e})*\sin(\frac{3\pi x}{2e}) + \frac{2e}{5\pi}\sin(\frac{5\pi t}{2e})*\sin(\frac{5\pi x}{2e})$$
+$u(x,t) = \cos(\frac{3\pi t}{2e})*\sin(\frac{3\pi x}{2e}) + \frac{2e}{5\pi}\sin(\frac{5\pi t}{2e})*\sin(\frac{5\pi x}{2e})$
 
 
 Now let's explore how to find the same solution by neural network!
