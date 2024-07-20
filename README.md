@@ -255,46 +255,82 @@ fig.colorbar(surf)
 plt.show()
 ```
 
+<div style="text-align:center;">
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="figure/f1.png" alt="Figure 3" width="400" >
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: black;
+    padding: 2px;">Figure 8 : Median Income VS Green Space Index
+    </div>
+</div>
+
 Then, plot the analytic solution.
 
 ```python
-# 创建3D图形
+# Create a 3D plot
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-# 绘制surface图
+# Plot the surface
 surf = ax.plot_surface(xm.detach().numpy(), tm.detach().numpy(), u_real_fig.detach().numpy(), cmap='viridis')
 ax.set_xlabel('x')
 ax.set_ylabel('t')
 ax.set_zlabel('u(x,t)')
 
 
-# 添加颜色条
+# Add a color bar
 fig.colorbar(surf)
 
-# 显示图形
+# Display the plot
 plt.show()
 ```
+
+<div style="text-align:center;">
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="figure/f2.png" alt="Figure 3" width="400" >
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: black;
+    padding: 2px;">Figure 8 : Median Income VS Green Space Index
+    </div>
+</div>
 
 At the end, plot the error distribution.
 
 ```python
-# 创建3D图形
+# Create a 3D plot
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-# 绘制surface图
+# Plot the surface
 surf = ax.plot_surface(xm.detach().numpy(), tm.detach().numpy(), u_error_fig.detach().numpy(), cmap='viridis')
 ax.set_xlabel('x')
 ax.set_ylabel('t')
 ax.set_zlabel('u(x,t)')
 
 
-# 添加颜色条
+# Add a color bar
 fig.colorbar(surf)
 
-# 显示图形
+# Display the plot
 plt.show()
 ```
+
+<div style="text-align:center;">
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="figure/f3.png" alt="Figure 3" width="400" >
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: black;
+    padding: 2px;">Figure 8 : Median Income VS Green Space Index
+    </div>
+</div>
 
 Overall, we got good results!
