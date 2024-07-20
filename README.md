@@ -35,7 +35,7 @@ Now let's explore how to find the same solution by neural network!
 
 ## Solve the Problem by PINNs
 
-``
+```Python
 import numpy as np
 import torch              
 import matplotlib.pyplot as plt
@@ -45,4 +45,4 @@ os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 %matplotlib inline
 %config InlineBackend.figure_format = 'retina'
-``
+```
