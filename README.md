@@ -258,12 +258,12 @@ plt.show()
 <div style="text-align:center;">
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="figure/f1.png" alt="Figure 3" width="400" >
+    src="figure/figure1.png" alt="Figure 3" width="400" >
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: black;
-    padding: 2px;">Figure 8 : Median Income VS Green Space Index
+    padding: 2px;">Figure 1 : Solution given by PINNs
     </div>
 </div>
 
@@ -291,12 +291,12 @@ plt.show()
 <div style="text-align:center;">
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="figure/f2.png" alt="Figure 3" width="400" >
+    src="figure/figure2.png" alt="Figure 3" width="400" >
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: black;
-    padding: 2px;">Figure 8 : Median Income VS Green Space Index
+    padding: 2px;">Figure 2 : Analytic Solution
     </div>
 </div>
 
@@ -324,12 +324,12 @@ plt.show()
 <div style="text-align:center;">
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="figure/f3.png" alt="Figure 3" width="400" >
+    src="figure/figure3.png" alt="Figure 3" width="400" >
     <br>
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: black;
-    padding: 2px;">Figure 8 : Median Income VS Green Space Index
+    padding: 2px;">Figure 3 : Error
     </div>
 </div>
 
